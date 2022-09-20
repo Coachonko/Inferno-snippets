@@ -24,6 +24,25 @@
     ],
     "scope": "javascript,javascriptreact"
   },
+  "infernoClassComponent": {
+    "key": "infernoClassComponent",
+    "prefix": "icc",
+    "description": "Creates an Inferno component class",
+    "body": [
+      "import { Component } from 'inferno'",
+      "",
+      "export default class ${1:${TM_FILENAME_BASE}} extends Component {",
+      "  state = {}",
+      "",
+      "  render() {",
+      "    return (",
+      "      <div>${1:first}</div>",
+      "    )",
+      "  }",
+      "}"
+    ],
+    "scope": "javascript,javascriptreact"
+  },
   "flowInfernoFunctionalComponent": {
     "key": "flowInfernoFunctionalComponent",
     "prefix": "fifc",
@@ -39,6 +58,19 @@
       "}"
     ],
     "description": "Creates an Inferno Functional Component with Flow interface",
+    "scope": "javascript,javascriptreact"
+  },
+  "infernoFunctionalComponent": {
+    "key": "infernoFunctionalComponent",
+    "prefix": "ifc",
+    "body": [
+      "export default function ${1:${TM_FILENAME_BASE}}(props) {",
+      "  return (",
+      "",
+      "  )",
+      "}"
+    ],
+    "description": "Creates an Inferno Functional Component",
     "scope": "javascript,javascriptreact"
   }
 }

@@ -8,6 +8,8 @@ My collection of Inferno snippets
 | ------- | --------------------------------------------- |
 | `ficc`  | Flow Inferno Component Class                  |
 | `fifc`  | Flow Inferno Functional Component             |
+| `icc`  | Inferno Component Class                        |
+| `ifc`  | Inferno Functional Component                   |
 
 ## Notes
 
