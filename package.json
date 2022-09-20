@@ -2,7 +2,7 @@
   "name": "coachonkos-inferno-snippets",
   "displayName": "Coachonko's Inferno snippets",
   "description": "I was tired of typing the same thing over and over again while fighting my dyslexia",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "publisher": "Coachonko",
   "license": "NCSA",
   "main": "./src/extension.js",
