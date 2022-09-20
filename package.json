@@ -2,15 +2,16 @@
   "name": "coachonkos-inferno-snippets",
   "displayName": "Coachonko's Inferno snippets",
   "description": "I was tired of typing the same thing over and over again while fighting my dyslexia",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "Coachonko",
   "license": "NCSA",
+  "main": "./src/extension.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Coachonko/Inferno-snippets.git"
   },
   "homepage": "https://github.com/Coachonko/Inferno-snippets.git",
-  "icon": "img/icon.png",
+  "icon": "img/icon.jpeg",
   "galleryBanner": {
     "color": "#000000",
     "theme": "dark"

@@ -11,4 +11,4 @@ My collection of Inferno snippets
 
 ## Notes
 
-The [icon](./img/logo.jpeg) was AI generated
+The [icon](./img/icon.jpeg) was AI generated
