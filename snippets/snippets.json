@@ -29,8 +29,6 @@
     "prefix": "fifc",
     "body": [
       "// @flow",
-      "import React from 'react'",
-      "",
       "type Props = {}",
       "",
       "// $FlowExpectedError Inferno VNode",
