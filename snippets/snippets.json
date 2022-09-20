@@ -72,5 +72,143 @@
     ],
     "description": "Creates an Inferno Functional Component",
     "scope": "javascript,javascriptreact"
+  },
+  "classConstructor": {
+    "key": "classConstructor",
+    "prefix": "iconst",
+    "body": [
+      "constructor(props) {",
+      "  super(props)",
+      "",
+      "  this.state = {",
+      "     ${1:first}",
+      "  }",
+      "}"
+    ],
+    "description": "Adds a default constructor for it('', () => {})the class that contains props as arguments",
+    "scope": "javascript,javascriptreact"
+  },
+  "importRouterLink": {
+    "key": "importRouterLink",
+    "prefix": "imrl",
+    "body": [
+      "import { Link } from 'inferno-router'"
+    ],
+    "scope": "javascript,javascriptreact"
+  },
+  "importRouterNavLink": {
+    "key": "importRouterNavLink",
+    "prefix": "imrnl",
+    "body": [
+      "import { NavLink } from 'inferno-router'"
+    ],
+    "scope": "javascript,javascriptreact"
+  },
+  "importRouterSwitch": {
+    "key": "importRouterSwitch",
+    "prefix": "imrs",
+    "body": [
+      "import { Switch } from 'inferno-router'"
+    ],
+    "scope": "javascript,javascriptreact"
+  },
+  "componentDidMount": {
+    "key": "componentDidMount",
+    "prefix": "cdm",
+    "body": [
+      "componentDidMount() { ${1:first} }"
+    ],
+    "description": "Invoked once, only on the client (not on the server), immediately after the initial rendering occurs.",
+    "scope": "javascript,javascriptreact"
+  },
+  "shouldComponentUpdate": {
+    "key": "shouldComponentUpdate",
+    "prefix": "scu",
+    "body": [
+      "shouldComponentUpdate(nextProps, nextState) { ${1:first} }"
+    ],
+    "description": "Invoked before rendering when new props or state are being received. ",
+    "scope": "javascript,javascriptreact"
+  },
+  "componentDidUpdate": {
+    "key": "componentDidUpdate",
+    "prefix": "cdup",
+    "body": [
+      "componentDidUpdate(lastProps, lastState) { ${1:first}} "
+    ],
+    "description": "Invoked immediately after the component's updates are flushed to the DOM.",
+    "scope": "javascript,javascriptreact"
+  },
+  "componentWillUnmount": {
+    "key": "componentWillUnmount",
+    "prefix": "cwun",
+    "body": [
+      "componentWillUnmount() {${1:first} }"
+    ],
+    "description": "Invoked immediately before a component is unmounted from the DOM.",
+    "scope": "javascript,javascriptreact"
+  },
+  "getDerivedStateFromProps": {
+    "key": "getDerivedStateFromProps",
+    "prefix": "gdsfp",
+    "body": [
+      "static getDerivedStateFromProps(nextProps, state) {${1:first}}"
+    ],
+    "description": "Invoked right before calling the render method, both on the initial mount and on subsequent updates.",
+    "scope": "javascript,javascriptreact"
+  },
+  "getSnapshotBeforeUpdate": {
+    "key": "getSnapshotBeforeUpdate",
+    "prefix": "gsbu",
+    "body": [
+      "getSnapshotBeforeUpdate = (lastProps, lastState) => {${1:first}}"
+    ],
+    "description": "Called right before mutations are made (e.g. before the DOM is updated)",
+    "scope": "javascript,javascriptreact"
+  },
+  "forEach": {
+    "key": "forEach",
+    "prefix": "fre",
+    "body": [
+      "${1:first}.forEach(${2:second} => {${3:third}})"
+    ],
+    "description": "Creates a forEach statement",
+    "scope": "javascript,javascriptreact"
+  },
+  "forOf": {
+    "key": "forOf",
+    "prefix": "fof",
+    "body": [
+      "for(let ${1:first} of ${2:second}) {${3:third}}"
+    ],
+    "description": "Iterating over property names of iterable objects",
+    "scope": "javascript,javascriptreact"
+  },
+  "forIn": {
+    "key": "forIn",
+    "prefix": "fin",
+    "body": [
+      "for(let ${1:first} in ${2:second}) {${3:third}}"
+    ],
+    "description": "Iterating over property values of iterable objects",
+    "scope": "javascript,javascriptreact"
+  },
+  "anonymousFunction": {
+    "key": "anonymousFunction",
+    "prefix": "anfn",
+    "body": [
+      "(${1:first}) => { ${2:second} }"
+    ],
+    "description": "Creates an anonymous function",
+    "scope": "javascript,javascriptreact"
+  },
+  "namedFunction": {
+    "key": "namedFunction",
+    "prefix": "nfn",
+    "body": [
+      "const ${1:first} = (${2:second}) => { ${3:third} }"
+    ],
+    "description": "Creates a named function",
+    "scope": "javascript,javascriptreact"
   }
 }
