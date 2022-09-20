@@ -1,0 +1,46 @@
+{
+  "flowInfernoClassComponent": {
+    "key": "flowInfernoClassComponent",
+    "prefix": "ficc",
+    "description": "Creates an Inferno component class with Flow interfaces",
+    "body": [
+      "// @flow",
+      "import { Component } from 'inferno'",
+      "",
+      "type Props = {}",
+      "",
+      "type State = {}",
+      "",
+      "// $FlowExpectedError Inferno VNode",
+      "export default class ${1:${TM_FILENAME_BASE}} extends Component<Props, State> {",
+      "  state = {}",
+      "",
+      "  render() {",
+      "    return (",
+      "      <div>${1:first}</div>",
+      "    )",
+      "  }",
+      "}"
+    ],
+    "scope": "javascript,javascriptreact"
+  },
+  "flowInfernoFunctionalComponent": {
+    "key": "flowInfernoFunctionalComponent",
+    "prefix": "fifc",
+    "body": [
+      "// @flow",
+      "import React from 'react'",
+      "",
+      "type Props = {}",
+      "",
+      "// $FlowExpectedError Inferno VNode",
+      "export default function ${1:${TM_FILENAME_BASE}}(props: Props) {",
+      "  return (",
+      "",
+      "  )",
+      "}"
+    ],
+    "description": "Creates an Inferno Functional Component with Flow interface",
+    "scope": "javascript,javascriptreact"
+  }
+}

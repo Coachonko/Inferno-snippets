@@ -1,0 +1,48 @@
+{
+  "name": "coachonkos-inferno-snippets",
+  "displayName": "Coachonko's Inferno snippets",
+  "description": "I was tired of typing the same thing over and over again while fighting my dyslexia",
+  "version": "1.0.1",
+  "publisher": "Coachonko",
+  "license": "NCSA",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Coachonko/Inferno-snippets.git"
+  },
+  "homepage": "https://github.com/Coachonko/Inferno-snippets.git",
+  "icon": "img/icon.png",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "bugs": {
+    "url": "https://github.com/Coachonko/Inferno-snippets.git/issues",
+    "email": "info@coachonko.fans"
+  },
+  "keywords": [
+    "Inferno",
+    "Inferno JS",
+    "Inferno snippets"
+  ],
+  "engines": {
+    "vscode": "^1.71.2"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onCommand:extension.stayClassy"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
